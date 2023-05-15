@@ -1,0 +1,233 @@
+
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titre1{
+   
+    width: 375px;
+    height: 63px;
+}
+
+.titre{
+    width: 160px;
+    height: 25px;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+
+.ville{
+    display: flex;
+    padding-left: 120px;
+    height: 40px;
+    font-size: 16px;
+    gap: 15px;
+    padding-top: 1px;
+    background-color:#EAEAEA;
+}
+
+.ville  p{
+    padding-top: 10px;
+}
+
+.fa-location-dot{
+    padding-top: 13px;
+}
+
+.reservation{
+    display: flex;
+    background-color: #F6F6F6;
+    height: 260px;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reservation h3{
+    padding-top: 30px;
+    
+}
+
+.reservation p{
+    color: rgb(142, 133, 133);
+    } 
+
+.bouton{
+    width: 218px;
+    height: 50px; 
+    border-radius: 25px;
+    background: linear-gradient(#FF79DA 30% , #9356DC 100% );
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bouton p{
+    color: white;
+    font-size: 16px;
+}
+.fonction{
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-left: 32.5px;
+   gap: 20px;
+}
+
+ .fonction h3{
+    margin-left: -10px;
+}
+
+.choix{
+    display: flex;
+    padding-left: 35px;
+    padding-top:25px ;
+    gap: 20px;
+    width: 322px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.choix .fa-solid{
+    color: rgb(142, 133, 133);
+}
+
+ .numéro{
+    position: absolute;
+    background-color: #9356DC;
+    width: 23px;
+    height: 23px;
+    border-radius: 25px;
+    margin-left: -45px;
+}
+
+.numéro p{
+    color: #F6F6F6;
+    padding-left: 7px;
+    padding-top: 5px;
+    font-size: 8px;
+}
+
+.photos-restaurants{
+height: 1150px;
+background-color: #F6F6F6;
+margin-top: 70px;
+padding-top: 75px;
+
+}
+
+.titre-restaurant{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.cartes{
+    width: 320px;
+    height: 230px;
+    position: relative;
+    border-radius:15px;
+    display: block;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.a{
+    position: relative;
+}
+.rectangle-vert{
+    width: 80px;
+    height: 29px;
+    border-radius: 2px;
+    background-color: #99E2D0;
+    
+    text-align: center;
+    padding-top: 7px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 15px;
+}
+.rectangle-vert p{
+    color:#008766 ;
+    font-size:14px ;
+    font-weight: 500px;
+}
+.photo{
+    width: 320px;
+    height: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.titre2{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+    position: relative;
+}
+
+.titre2 p{
+    font-size: 15px;
+    font-weight: 300;
+   
+}
+
+
+ .fa-heart{
+    padding-left: 270px;
+    position: absolute;
+    padding-top: 3px;
+    font-size: 20px;
+}
+
+.footer-legal{
+padding-top: 15px;
+font-size: 15px;
+
+}
+
+.footer{
+    width: 375px;
+    height: 190px;
+    background: rgba(53, 53, 53, 1);
+    color: #FFFF;
+}
+
+.fa-utensils{
+padding-top: 10px;
+
+}
+
+.fa-handshake-angle{
+    padding-top: 10px;
+}
+
+.footer h4{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: 'Shrikhand';
+
+}
+
+.icone-propo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.légale{
+    padding-left: 25px;
+    padding-top: 10px;
+}
