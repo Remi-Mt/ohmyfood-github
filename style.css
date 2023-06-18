@@ -68,6 +68,7 @@
     margin-left: 20%;
     margin-top: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-color:#FF79DA ; 
     transition-duration: 0.6s;
 }
 
@@ -190,12 +191,29 @@ padding-top: 75px;
 }
 
 
+
  .fa-heart{
     padding-left: 80%;
     position: absolute;
     padding-top: 3px;
     font-size: 20px;
+    opacity: 1;
+    transition: transform 0.7s ease-out;
 }
+
+
+
+.clic{
+    transition-duration: 2.5s;
+     color: #e9dddd;
+    
+    
+ }
+ .clic:hover{
+     color:#FF79DA  ; 
+     
+ }
+ 
 
 .footer-legal{
 padding-top: 15px;
